@@ -456,7 +456,12 @@ ul {
 .z-index-4 {
     z-index: 4!important;
 }
-
+.icon:hover{
+    transform: translateY(-15%);
+}
+.icon{
+    transition: 500ms all linear;
+}
 /* scrollbar */
 
 /* width */
