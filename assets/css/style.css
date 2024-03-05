@@ -387,7 +387,7 @@ ul {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 2;
+    z-index: 1;
     border: white 1px solid !important;
 }
 
@@ -445,7 +445,7 @@ ul {
 }
 
 .z-index-4 {
-    z-index: 4;
+    z-index: 4!important;
 }
 
 /* scrollbar */
@@ -560,7 +560,7 @@ ul {
         right: -100%;
         width: 100%;
         min-height: 100vh;
-        background-color: var(--bs-black);
+        background-color: var(--blue);
         transition: 300ms linear;
         flex-direction: column;
         z-index: 2;
@@ -667,11 +667,11 @@ ul {
 
 @media (min-width:992px) {
     .pb-lg-48 {
-        padding-bottom: 48px;
+        padding-bottom: 48px !important;
     }
 
     .pb-lg-40 {
-        padding-bottom: 40px;
+        padding-bottom: 40px !important;
     }
 
     .pb-lg-303 {
@@ -684,6 +684,6 @@ ul {
         padding-top: 271px !important;
     }
     .pb-lg-200{
-        padding-bottom: 160px !important;
+        padding-bottom: 120px !important;
     }
 }
