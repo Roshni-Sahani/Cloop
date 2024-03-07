@@ -274,15 +274,12 @@
     border-radius: 50%;
     background-color: var(--green);
 }
-
 .op-90 {
     opacity: 90%;
 }
-
 .op-80 {
     opacity: 80%;
 }
-
 .border-radius {
     border-radius: 10px;
 }
